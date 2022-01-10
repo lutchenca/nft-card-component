@@ -1,6 +1,11 @@
 body {
   background-color: #0d1a2d;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .background-color {
@@ -13,28 +18,57 @@ body {
   height: 590px;
   width: 370px;
   background-color: #15273d;
-  color: #fff;
+  color: lightslategrey;
   border-radius: 25px;
-  text-align: center;
+  /* padding: 10px; */
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+  color: #fff;
 }
 
 .card-img {
   height: 300px;
-  width: 315px;
-  justify-content: center;
-  border-radius: 15px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
-.card-header .card-body .card-footer {
-  justify-content: center;
+.title {
+  text-align: start;
 }
 
-.text-description {
+.icons-and-values {
   display: flex;
   justify-content: space-between;
 }
-.icon-one {
-  text-align: start;
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  border-top: 1px solid lightslategrey;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+  color: #00fff8;
+}
+
+.avatar-footer {
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.text-footer {
+  color: lightslategrey;
+}
+
+.text-footer strong {
+  color: white;
 }
